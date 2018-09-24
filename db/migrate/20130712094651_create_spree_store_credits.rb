@@ -1,4 +1,4 @@
-class CreateSpreeStoreCredits < ActiveRecord::Migration[4.2]
+class CreateSpreeStoreCredits < ActiveRecord::Migration[5.1]
   def change
     create_table :spree_store_credits do |t|
       t.string :reason
